@@ -5,7 +5,7 @@
 #include "MidiClock.hpp"
 #include "Util.hpp"
 
-//#define DEBUG
+#define DEBUG
 
 #ifdef DEBUG
 #include "SerialConsole.hpp"

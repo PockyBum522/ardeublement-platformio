@@ -1,0 +1,26 @@
+.DS_Store
+bin/*/
+*build-*
+*build*
+*~
+build-tmp/
+Makefile
+doc/
+debug.txt
+.ycm_extra_conf.pyc
+.ropeproject
+*.bbprojectd
+
+
+# Stuff for David
+.idea
+
+# PlatformIO Ignores
+shelf/
+workspace.xml
+httpRequests/
+dataSources/
+dataSources.local.xml
+.pio
+CMakeListsPrivate.txt
+cmake-build-*/ 

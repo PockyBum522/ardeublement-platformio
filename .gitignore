@@ -12,10 +12,7 @@ debug.txt
 *.bbprojectd
 
 
-# Stuff for David
-.idea
-
-# PlatformIO Ignores
+# Stuff for David/PlatformIO Ignores
 shelf/
 workspace.xml
 httpRequests/

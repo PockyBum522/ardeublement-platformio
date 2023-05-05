@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSharedSettings">
+    <configurations>
+      <configuration PROFILE_NAME="leonardo" ENABLED="true" CONFIG_NAME="leonardo" />
+      <configuration PROFILE_NAME="um_feathers3" ENABLED="true" CONFIG_NAME="um_feathers3" />
+    </configurations>
+  </component>
+</project>

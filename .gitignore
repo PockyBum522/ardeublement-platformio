@@ -24,4 +24,3 @@ dataSources.local.xml
 .pio
 CMakeListsPrivate.txt
 cmake-build-*/ 
-.run

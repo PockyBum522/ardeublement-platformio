@@ -44,7 +44,7 @@ void Esp32HardwareClock::InitializeHardwareTimer()
 
     const void (*fn)() = thisInstanceAddress->ClockPinStateAction();
 
-    //timerAttachInterrupt(_timerConfiguration, &(*thisInstanceAddress).ClockPinStateAction, true);
+    timerAttachInterrupt(_timerConfiguration, &(*thisInstanceAddress).ClockPinStateAction, true);
 
     timerAlarmWrite(_timerConfiguration, halfCycleMicroseconds, true); // Cycle on/off totals 100 uS. 50us on then 50us off
 }
